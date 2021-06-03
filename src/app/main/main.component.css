@@ -1,0 +1,190 @@
+.wrapper0{text-align: center;
+    justify-content: center;
+    box-shadow:5px solid black;
+    margin-top: 30px;
+   
+    padding:10px;
+  ;
+
+}
+.wrp{margin-left:60px;}
+.brand-img{
+    
+   
+ 
+    text-align: center;
+    justify-content: center;
+    
+    height: 500px;
+  
+
+}
+.title{
+    border-bottom: 2px solid black;
+   
+
+   margin-bottom:30px;
+    text-transform: lowercase;
+    font-weight: 500px;
+    font-size: 22px;
+   
+}
+
+.brand-img{
+    height: 400px;
+  
+    background-image: url(/assets/images/Title-Page-p3pxbh76a8dp7i0psajsmedyk4m7hb323l0z6kw3qc.jpg);
+    background-size: cover;
+}
+.wrapper1{
+
+    padding:10px;
+
+}
+.ct1{text-align: center;
+padding: top left 20px;;
+box-shadow: 2px solid darkgray;
+background-color:#F8F8F8;
+height: 400px;
+padding:50px;
+}
+
+.brand-img-full{
+    height: 400px;
+    width: 98%;
+  
+    background-image: url(/assets/images/cosmetic-pharmaplus.png);
+    background-size: cover;
+}
+.wrapper3{
+    padding:10px;
+    background-color:blue;
+    width: auto;
+
+}
+
+.xslider-box{
+    margin:20px;
+    height:880px;
+    width:500px;
+    position:relative;
+    background-color:#FFFFFF;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border:1px solid rgba(187,187,187,0.40);
+    }
+    .xslider-box a{
+        text-decoration:none;
+        text-align:center;}
+       
+        .ximg-box{
+            height:700px;
+            
+            }
+     
+            .ximg-box img{
+                height:580px;
+                width:400px;
+                max-width:100%;
+                max-height:100%;}
+               
+                .time{
+                    position:absolute;
+                    top:0px;
+                    right:20px;
+                    color:#f16007;}
+                    .detail{
+                        display:flex;
+                        flex-direction:column;
+                        align-items:center;
+                        box-sizing:border-box;
+                        font-size:13px;
+                        line-height:35px;}
+                        .price{
+                            color:#FFFFFF;
+                            background-color:#ff555b;
+                             line-height:20px;}
+                             .cart{
+                                 position:absolute;
+                                 bottom:0px;
+                                 height:45px;
+                                 background-color:#ff696e;
+                                 width:100%;
+                                 display:flex;
+                                 justify-content:center;
+                                 align-items:center;}
+                                 .cart a{
+                                     color:#FFFFFF;}
+                                     .xslider-box:hover{
+                                         box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                                         }
+                                         .xslider-box:hover .ximg-box img{
+                                             transform:scale(1.07);
+                                             transition:all ease 0.3s;}
+
+
+                                             
+                                             .cart:hover{
+                                                 transform:scale(1.1);
+                                                 background-color:#fe9048;
+                    box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                    transition:all ease 0.1s;}
+                    
+                    
+                    
+                    
+                    .heading{
+                        display:flex;
+                        justify-content:center;
+                    }
+                    .heading h1{
+                        border-left:2px solid #000000;
+                        Border-right:2px solid #000000;
+                        background-color:#f05656;
+                        text-shadow:2px 2px 12px rgba(69,66,66,0.3);
+                        padding:0px 10px;
+                        color:#FFFFFF;
+                        margin:20px;
+                        font-size:30px;
+                        font-family:calibri;}
+
+
+
+                        .slider-box{
+                            margin-top:20px;
+                            margin-left:50px;
+                            height:430px;
+                            width:300px;
+                            position:relative;
+                            background-color:#FFFFFF;
+                            border-radius:5px;
+                            display:flex;
+                            flex-direction:column;
+                            justify-content:center;
+                            align-items:center;
+                            text-align:center;
+                            border:1px solid rgba(187,187,187,0.40);
+                            }
+                            .slider-box a{
+                                text-decoration:none;
+                                text-align:center;}
+                                .img-box{
+                                    height:250px;
+                                    }
+                                    .img-box img{
+                                
+                        
+                                        height:350px;
+                                        width:250px;
+                                        max-width:100%;
+                                        max-height:100%;}
+                                        .slider-box:hover{
+                                            box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                                            }
+                                            .slider-box:hover .img-box img{
+                                                transform:scale(1.07);
+                                                transition:all ease 0.3s;}

@@ -1,0 +1,176 @@
+.slider-box{
+    
+    margin: 30px 10px;
+    height:450px;
+    width:270px;
+    position:relative;
+    background-color:#FFFFFF;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border:1px solid rgba(187,187,187,0.40);
+    }
+    .slider-box a{
+        text-decoration:none;
+        text-align:center;}
+        .img-box img{
+            height:200px;
+            width:170px;
+            
+            max-width:100%;
+            max-height:100%;}
+            .time{
+                position:absolute;
+                top:0px;
+                
+                left:20px;
+                color:#f16007;}
+            .favorite{
+                position:absolute;
+                top:0px;
+                right: 1px;
+                width:50px;
+                height: 45px;
+                border:none;
+                background:none
+                ;
+                
+            }
+                    .detail{
+                        display:flex;
+                        flex-direction:column;
+                        align-items:center;
+                        box-sizing:border-box;
+                        font-size:13px;
+                        line-height:35px;}
+                        .price{
+                            color:#FFFFFF;
+                            background-color:#ff555b;
+                             line-height:20px;}
+                             .cart{
+                                bottom:0px;
+                                height:45px;
+                                background-color:#ff555b;
+                                width:100%;
+                                display:flex;
+                                justify-content:center;
+                                align-items:center;}
+                                 .cart a{
+                                     color:#FFFFFF;}
+                                     .slider-box:hover{
+                                         box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                                         }
+                                         .slider-box:hover .img-box img{
+                                             transform:scale(1.07);
+                                             transition:all ease 0.3s;}
+                                             .cart:hover{
+                                                 transform:scale(1.1);
+                                                 background-color:#fe9048;
+                    box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                    transition:all ease 0.1s;}
+                    
+                    
+                    
+                    
+                    .heading{
+                        display:flex;
+                        justify-content:center;
+                    }
+                    .heading h1{
+                        border-left:2px solid #000000;
+                        Border-right:2px solid #000000;
+                        background-color:#f05656;
+                        text-shadow:2px 2px 12px rgba(69,66,66,0.3);
+                        padding:0px 10px;
+                        color:#FFFFFF;
+                        margin:20px;
+                        font-size:30px;
+                        font-family:calibri;}
+
+
+
+                        .xslider-box{
+                            margin:20px;
+                            height:500px;
+                            width:350px;
+                            position:relative;
+                            background-color:#FFFFFF;
+                            border-radius:5px;
+                            display:flex;
+                            flex-direction:column;
+                            justify-content:center;
+                            align-items:center;
+                            text-align:center;
+                            border:1px solid rgba(187,187,187,0.40);
+                            }
+                            .xslider-box a{
+                                text-decoration:none;
+                                text-align:center;}
+                                .ximg-box{
+                                    height:300px;
+                                    }
+                                    .ximg-box img{
+                                        height:500px;
+                                        width:300px;
+                                        max-width:100%;
+                                        max-height:100%;}
+                                        .xtime{
+                                            position:absolute;
+                                            top:0px;
+                                            right:20px;
+                                            color:#f16007;}
+                                            .xdetail{
+                                                display:flex;
+                                                flex-direction:column;
+                                                align-items:center;
+                                                box-sizing:border-box;
+                                                font-size:13px;
+                                                line-height:35px;}
+                                                .xprice{
+                                                    color:#FFFFFF;
+                                                    background-color:#ff555b;
+                                                     line-height:20px;}
+                                                     .xcart{
+                                                         position:absolute;
+                                                         bottom:0px;
+                                                         height:45px;
+                                                         background-color:#ff696e;
+                                                         width:100%;
+                                                         display:flex;
+                                                         justify-content:center;
+                                                         align-items:center;}
+                                                         .xcart a{
+                                                             color:#FFFFFF;}
+                                                             .xslider-box:hover{
+                                                                 box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                                                                 }
+                                                                 .xslider-box:hover .img-box img{
+                                                                     transform:scale(1.07);
+                                                                     transition:all ease 0.3s;}
+                                                                     .xcart:hover{
+                                                                         transform:scale(1.1);
+                                                                         background-color:#fe9048;
+                                            box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+                                            transition:all ease 0.1s;}
+                                            
+                                            
+                                            
+                                            
+                                            .heading{
+                                                display:flex;
+                                                justify-content:center;
+                                            }
+                                            .heading h1{
+                                                border-left:2px solid #000000;
+                                                Border-right:2px solid #000000;
+                                                background-color:#f05656;
+                                                text-shadow:2px 2px 12px rgba(69,66,66,0.3);
+                                                padding:0px 10px;
+                                                color:#FFFFFF;
+                                                margin:20px;
+                                                font-size:30px;
+                                                font-family:calibri;}
+                        

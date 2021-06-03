@@ -1,0 +1,59 @@
+.account-title{
+    background-color:gray;
+    margin-bottom:50px
+}
+.menu-box{
+    margin-top: 40px;
+   
+   
+justify-content: center;
+  
+    background-color: white;
+    height: 500px;
+   
+   
+}
+
+
+
+.icons{padding-right: 5px;}
+.containerbox{
+    background-color: whitesmoke;
+    height: auto;
+}
+
+.menu-item{
+    color: black;
+    background-color:#F5F5F5;
+    height: 40px;
+
+  
+    
+    border:none;
+   
+    padding: 10px;
+    margin:10px  10px ;
+    
+    
+}
+
+  
+.paramlist{
+
+    height: 800px;
+    
+}
+.boxbox{
+    width: 250px;
+    
+    border:2px solid green;
+   justify-content: center;
+}
+.paramhead{
+    display: flex;
+    background-color:white;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    
+}

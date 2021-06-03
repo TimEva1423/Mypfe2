@@ -1,0 +1,62 @@
+table{width: 100% 
+    ;
+box-shadow: none;}
+.headtable{
+    background-color:white ;
+}
+img{
+    width:100px;
+    height: 250px;
+}
+h5{
+    color:orangered;
+}
+.clearicon{
+    color:orangered;
+}
+button{ border:none}
+.navigate{width:240px;
+    margin-left:-15px;
+    
+    background-color: #ffb26b;height: 30px;}
+    .command{width:240px;
+        margin-left:0px;
+    background-color: #cc9b6d} 
+.orderfooter{
+    margin-top:30px
+}
+.btnstyles{background-color:#ffb26b ;
+    height:40px;
+    width:50px;
+    margin-left :5px
+    
+
+}
+.cmdheader{
+    border-bottom:5px solid black;
+    
+
+    
+    height: 50px;
+   
+
+}
+h2{color:black}
+<!--erfter------>
+
+table{width: 100%;
+    box-shadow: none;}
+   
+    img{
+        width:100px;
+        height: 80px;
+    }
+    h5{
+        color:orangered;
+    }
+    .clearicon{
+        color:orangered;
+    }
+    button{ border:none}
+    
+ 

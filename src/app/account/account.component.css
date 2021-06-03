@@ -1,0 +1,45 @@
+.profile{
+    border:1px solid gray;
+    box-shadow:darkgreen;
+    height: 300px;
+    width: 200px;
+    padding:20px;
+    background-color: white
+
+   
+}
+
+.infotab{
+    padding: 20px;
+}
+
+.submenu{
+    background-color: #F2F2F2
+}
+table{
+    background-color:white;
+}
+.nav{
+    background-color:red
+}
+.h5{
+    color:white !important
+}
+.button{
+    color:black;
+    color:white;
+    text-decoration: none;
+  
+    
+}
+.a{
+    color:white;
+    text-decoration: none;
+
+}
+.tien{
+    background-color: blue;
+}
+.nav-item{
+    color:green
+}

@@ -1,0 +1,132 @@
+
+<div class="panierheader " style="background-color: white;">
+    <h3>MON PANIER</h3>
+
+
+</div>
+<div class=" row orderwrap  container-fluid">
+    <div class="col-9">
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+            <!--- Note that these columns can be defined in any order.
+                  The actual rendered columns are set as a property on the row definition" -->
+          
+            <!-- Nom produit Column -->
+            <ng-container  matColumnDef="name" >
+              <th class="headtable"mat-header-cell *matHeaderCellDef> NOM DU PRODUIT  </th>
+              <td mat-cell *matCellDef="let element" class="d-flex"><img class="imgp"src="assets/images/lotion3.png"> <h5>{{element.name}}</h5>  </td>
+            </ng-container>
+          
+            <!-- Name Column -->
+            <ng-container  matColumnDef="price">
+              <th class="headtable"mat-header-cell *matHeaderCellDef> PRIX </th>
+              <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+            </ng-container>
+          
+            <!-- Weight Column -->
+            <ng-container  matColumnDef="quantity">
+              <th class="headtable"mat-header-cell *matHeaderCellDef> QUANTITE </th>
+              <td mat-cell *matCellDef="let element"> {{element.quantity}} </td>
+            </ng-container>
+          
+            <!-- Symbol Column -->
+            <ng-container  matColumnDef="total">
+              <th class="headtable" mat-header-cell *matHeaderCellDef> TOTAL </th>
+              <td mat-cell *matCellDef="let element"> {{element.total}} </td>
+            </ng-container>
+             <!-- Statue Column -->
+           
+            <ng-container  matColumnDef="etat">
+              <th class="headtable"mat-header-cell *matHeaderCellDef> </th>
+              <td mat-cell *matCellDef="let element"><button><mat-icon class="clearicon">clear</mat-icon> </button> </td>
+            </ng-container>
+          
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+
+
+
+
+    </div>
+    <div class="col-3">
+        <div class="row summuryheader " style="height: 500px; ">
+            <div class="headertext justify-item-center"><h6>SOMMAIRE</h6></div>
+
+      <table class="table table-borderless">
+            
+            <tbody>
+              <tr>
+               
+                <td><p>Nombre d' article</p></td>
+               
+               
+                <td>5</td>
+              </tr>
+              <tr>
+              
+                <td><p>Sous-total</p></td>
+                
+                <td><p>100DT</p></td>
+              </tr>
+              <tr>
+              
+                <th><p>Totaux</p></th>
+               
+                <th><p>125 DT</p></th>
+              </tr>
+              
+              
+            </tbody>
+          </table>
+          
+       
+     
+        <div class="payementbox row ">
+            
+            <div class="cpblock  d-block">
+                <h5>CODE COUPON</h5>
+                <div class=" d-flex"><input type="text" placeholder="Insérer coupon" class="search drop-btn"><button class="btnstyles ">Enter</button></div>
+            </div><br>
+            <div class="">
+            <button  class=" command ">VALIDER PAIEMENT</button></div>
+            <div class="textarea">
+           <h6>NOUS ACCEPTONS:</h6>
+           <img src="/assets/icons/paiement_securise.png" >
+      
+        </div>
+       
+        </div>
+
+
+        </div>
+    </div>
+
+    
+   
+
+
+</div>
+
+
+<div class=" row orderfooter container" style="border:2px solid green">
+    
+        
+        
+            
+            <div class="row  container d-flex justify-content-between"  >
+                <div class="col"><button class="  navigate">CONTINUER ACHAT</button></div>
+                <div class=" col  "><button class="  command ">COMMANDER</button></div>
+                
+            </div>
+           
+
+       
+   
+   
+    
+
+
+
+</div>
+
